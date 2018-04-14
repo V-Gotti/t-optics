@@ -1,0 +1,130 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica;
+  line-height: 1.4
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/*header*/
+header {
+  height: 30rem;
+  padding-top: 1rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  padding-right: 2rem;
+}
+
+.logo,a {
+  display: flex;
+  align-items: center;
+  background-color: cadetblue;
+  font-size: 1rem;
+  color: white;
+}
+
+.logo #img {
+  height: 1.5rem;
+  width: auto;
+  margin: 1rem 1rem 1rem 2rem;
+}
+
+.logo a {
+  margin: 1rem 1rem 1rem;
+  text-decoration: none;
+}
+
+.logo span {
+  display: flex;
+  flex-grow: 1;
+}
+
+.quote {
+  float: right;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  width: auto;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-right: -2rem;
+}
+
+/*services*/
+
+.serv {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem 3rem;
+  text-align: center;
+}
+
+.service img {
+  max-width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
+
+/*products*/
+
+.products {
+  display: flex;
+  justify-content: center;
+}
+
+.prod-item {
+  max-width: 20%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info h4 {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+
+.info {
+  max-width: 10rem;
+}
+/*footer*/
+
+.logo2 {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  font-size: 1rem;
+  color: black;
+  margin: 4rem 0;
+}
+.container img {
+  height: 1.5rem;
+  width: auto;
+  margin: 1rem 1rem 1rem 2rem;
+}
